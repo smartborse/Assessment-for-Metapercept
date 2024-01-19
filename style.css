@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 10vh;
+    width: 100vw;
+    overflow-x:auto;
+}
+
+.navBar{
+    background-color: white;
+    color: black;
+    
+    width: 100vw;
+    
+}
+
+#nalist{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(245, 239, 239);
+    min-height: 40px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 10px;
+    font-size: 20px;
+}
+#navMenu{
+    /* text-decoration: none; */
+    padding: 10px;
+    
+}
+#navMenu a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+#Btn{
+    background-color: #fff;
+    height: 1.7rem;
+    width: 4rem;
+}
+
+
+/*  */
+.box{
+    height: 50vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(59,59,167,1) 100%, rgba(39,110,196,1) 100%);
+    display: flex;
+    /* justify-content:; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.heading p{
+    padding: 10px;
+}
+.title1{
+    font-size: 50px;
+}
+.head-btn{
+    height: 2.4rem;
+    width: 5rem;
+}
+
+
+/* Section-1 */
+
+.section-1{
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+}
+.class-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.class-title{
+    font-size: 50px;
+}
+
+.class-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    border: 1px solid rgb(190, 180, 180);
+    margin: 10px;
+}
+.class-img{
+    color: #fff;
+    height: 120px;
+    width: 350px;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+
+.class-head{
+    font-size: 20px;
+    padding: 10px;
+
+}
+.class-btn{
+    padding: 10px;
+    height: 30px;
+    width: 3
+}
